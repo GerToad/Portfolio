@@ -5,6 +5,7 @@
 }
 
 .home h1{
+    color: var(--back-color);
     font-size: 55px;
     margin-top: 50px;
 }

@@ -3,8 +3,8 @@ import './index.css';
 const Projects = () => {
 
   let projects = [
-    {name: "todo", image: "./assets/img/home2.png", link:"https://github.com/GerToad/To-do-list"},
-    {name: "beer-scraper", image: "./assets/img/beer-scraper.png", link:"https://github.com/GerToad/beer-scrapper"},
+    {name: "todo", image: require("../../assets/img/home2.png"), link:"https://github.com/GerToad/To-do-list"},
+    {name: "beer-scraper", image: require("../../assets/img/beer-scraper.png"), link:"https://github.com/GerToad/beer-scrapper"},
   ]
 
   return(
