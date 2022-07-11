@@ -1,0 +1,24 @@
+.home{
+    width: 100%;
+    min-height: 500px;
+    background-color: var(--dunkel-color);
+}
+
+.home h1{
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+.skills{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+.skills i{
+    font-size: 90px;
+}
+
+.skills img{
+    width: 90px;
+}

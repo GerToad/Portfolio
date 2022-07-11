@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+:root {
+  --dunkel-color: #283845;
+  --hardblue-color: #03012C;
+  --rosso-arancia: #FF5200;
+  --viola-color: #120078;
+  --azurro-color: #082846;
+  --verde-color: #064E3B;
+  --back-color: #B8BFC6;
+  --backblue-color: #41CBBF;
+  --backbluelight-color: #60A5FA;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.container{
+    margin: 0px 5%;
+    padding: 3% 9%;
+}
+
+h1{
+  font-family: 'Anton';
+}
+
+h2{
+    font-family: 'Anton';
+    font-size: 55px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  position: sticky;
+  top: 0;
+}
+
 .App {
   text-align: center;
 }

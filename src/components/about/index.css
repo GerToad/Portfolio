@@ -1,0 +1,32 @@
+.about{
+    background-color: var(--back-color);
+}
+
+.about section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.about span{
+    margin-top: 5px;
+    padding: 10px 20px;
+    width: 95%;
+    text-align: start;
+    background-color: var(--backbluelight-color);
+    font-family: 'Roboto Mono';
+    font-size: 25px;
+}
+
+.about h2{
+    font-family: 'Anton';
+    font-size: 55px;
+    padding-left: 20px;
+}
+
+.about p{
+    line-height: 2em;
+    padding-left: 20px;
+    text-align: start;
+    margin-top: 35px;
+}
