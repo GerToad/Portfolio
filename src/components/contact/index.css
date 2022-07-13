@@ -2,3 +2,51 @@
     background-color: black;
     color: var(--back-color);
 }
+
+.contact p{
+    font-family: 'Roboto Mono';
+    font-size: 25px;
+    color: var(--backbluelight-color);
+    margin-bottom: 20px;
+}
+
+.contact .copy{
+    width: 230px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--backbluelight-color);
+    transition: all 300ms;
+}
+
+.contact .copy:hover{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--azurro-color);
+    text-decoration: underline;
+}
+
+.links{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.linkedin, .github{
+    color: var(--back-color);
+    font-size: 40px;
+    transition: all 300ms;
+}
+
+.github:hover{
+    color: white;
+}
+
+.linkedin:hover{
+    color: #0a66c2;
+}
