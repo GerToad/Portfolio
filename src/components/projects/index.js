@@ -8,7 +8,7 @@ const Projects = () => {
   ]
 
   return(
-    <div className="portfolio">
+    <div className="portfolio" id="projects">
       <section className="container">
         <h2>My Projects</h2>
         <p>A selection of my current work</p>

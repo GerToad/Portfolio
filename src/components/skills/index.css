@@ -12,8 +12,14 @@
 
 .skills{
     display: flex;
+    flex-flow: wrap row;
     margin-top: 35px;
     justify-content: space-evenly;
+}
+
+.skills li{
+    width: 20%;
+    margin-bottom: 25px;
 }
 
 .skills i{

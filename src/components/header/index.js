@@ -1,30 +1,37 @@
 import './index.css';
+import { Link } from 'react-scroll';
+import Pdf from '../../assets/CV.pdf';
 
 const Header = () => {
 
   return (
     <header>
       <div className="header">
-        <h1>Gerardo Palmieri</h1>
+        <Link to="intro" spy={true} smooth={true} offset={-100} duration={500}>
+          Gerardo Palmieri Mondragón
+        </Link>
 
         <nav>
             <ul>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Resume</a></li>
+                <li>
+                  <Link to="about" spy={true} smooth={true} offset={-100} duration={500} activeClass="active">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} activeClass="active">
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <a href={Pdf} without="true" rel="noopener noreferrer" target="_blank">
+                    <button trailingicon="picture_as_pdf" label="Resume">
+                      Resume
+                    </button>
+                  </a>
+                </li>
             </ul>
         </nav>
-      </div>
-
-      <div className="me">
-        <div>
-          <h1>
-            Hi, I'm
-            <strong>Gerardo Palmieri</strong>
-          </h1>
-          <span>Full-stack Developer</span>
-          <button>Contact me</button>
-        </div>
       </div>
     </header>
   )
