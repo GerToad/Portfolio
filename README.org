@@ -2,7 +2,7 @@
 #+description: Brew description of my carreer
 #+author: Gerardo
 
-** Simple designed portfolio to publish my work and maybe some other projects
+Simple designed portfolio to publish my work and maybe some other projects
 
 * Built with
 + React
