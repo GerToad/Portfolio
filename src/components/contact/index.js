@@ -11,7 +11,7 @@ const Contact = () => {
   const emailIcon = <FontAwesomeIcon icon={faEnvelope} />;
   const github = <FontAwesomeIcon icon={faGithub} />;
   const linkedIn = <FontAwesomeIcon icon={faLinkedin} />;
-  const email = "theyayo47@gmail.com";
+  const email = "gerardopalmierimondragon@gmail.com";
 
   const links = [
     {socialMedia: "linkedin", icon: linkedIn, url: "https://www.linkedin.com/in/gerardo-palmieri-mondrag%C3%B3n-486485203/"},
